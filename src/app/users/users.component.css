@@ -1,0 +1,17 @@
+.list-users {
+  list-style: none;
+}
+
+.list-users li {
+  display: flex;
+  align-items: center;
+}
+
+.user-img {
+  margin: 20px;
+  width: 200px;
+}
+
+.user-img img {
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+<div class="row">
+  <h1 class="title col-12">List of users</h1>
+  <div class="users-box">
+    <ul class="list-users container " *ngIf="users.length">
+      <li>
+        <div class="label user-id">id</div>
+        <div class="label user-img">avatar</div>
+      </li>
+      <li *ngFor="let user of users">
+        <div class="user-id">{{ user.id || -1 }}</div>
+        <div class="user-img"><img src="{{user.avatar_url}}"></div>
+      </li>
+    </ul>
+  </div>
+</div>

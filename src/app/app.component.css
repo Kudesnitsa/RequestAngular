@@ -1,0 +1,15 @@
+:root {
+  --background-color: #f1f5f8;
+  --text-color: #626262;
+}
+
+body {
+  background: var( --background-color);
+  color: var(--text-color);
+  font-family: 'Mali', cursive;
+  font-size: 18px;
+}
+
+.title {
+  text-align: center;
+}
